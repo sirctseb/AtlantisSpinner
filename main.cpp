@@ -14,13 +14,9 @@ int main() {
 	// init random number
 	srand(time(0));
 	rand();
-	//cout << time(0) << endl;
 
 	// get random number
-	//double ra = rand();
 	double r = 1.0 * rand() / RAND_MAX;
-	//cout << "ra: " << ra << endl;
-	//cout << r << endl;
 
 	// find division
 	if(r >= 0 && r <= dolphin) {
